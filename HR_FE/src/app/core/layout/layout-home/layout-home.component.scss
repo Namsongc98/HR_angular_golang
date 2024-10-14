@@ -1,0 +1,32 @@
+@import 'src/styles';
+.ant-layout-header {
+  padding: 0  !important;
+  height: inherit;
+}
+.ant-layout-content{
+    padding: 3.2rem;
+}
+nav {
+  ul {
+    li {
+      height: 46px;
+
+      a {
+        color: #999999;
+      }
+
+      .active {
+        height: 100%;
+        width: 100%;
+        background-color: #f6e4f6;
+        border-right: 2px solid $purple;
+        color: $purple;
+      }
+
+      a:hover {
+        color: $purple;
+        line-height: 46px;
+      }
+    }
+  }
+}
